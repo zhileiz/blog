@@ -2,7 +2,7 @@
 <% provide(:blog_active, 'active') %>
 <p id="notice"><%= notice %></p>
 
-<div class="row">
+<div class="card-columns">
   <% @posts.each do |post| %>
     <%= render post %>
   <% end %>
